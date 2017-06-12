@@ -1,0 +1,149 @@
+
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+	padding: 0.8em;
+}
+header{
+	background: url(../img/portada.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+.container{
+	margin-left: 15px;
+    color: white;
+    padding-top: 2em;
+    display: flex;
+    justify-content: flex-start;
+}
+.container p{
+	text-align: left;
+}
+ul{
+	background: transparent;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+}
+.barra ul h3 {
+	color: white;
+    margin: 31px;
+    text-shadow: 5px 5px 5px #aaa;
+}
+
+a{
+	margin-top: 20px;
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	background-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+button{
+	border-radius: 10px;
+	color: white;
+	background-color: #41521F;
+	margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+.portada {
+	top:0;
+	width: 100%;
+}
+
+h3{
+	color: #41521F;
+	font-weight: bold;
+}
+.segunda p h3{
+	font-weight: bold;
+    color: black;
+	display: flex;
+	justify-content: center;
+}
+.contenedor2{
+	margin-top: 20px;
+}
+.segunda .contenedor2 .row img{
+	display: flex;
+	align-self: flex-end;
+	margin-left: 10px;	
+	
+}
+
+.carousel{
+	width: 100%;
+}
+
+.contenedor3{
+	background-color:  #A89F68;
+	padding: 40px;
+	font-weight: bold;
+	width: 100%;
+}
+.contenedor3 p{
+	color: white;
+}
+.cosita{
+	height: 100px;
+    border: 7px 0;
+	border-color: white;
+}
+.all{
+	height: 100vh;
+	width: 100%;
+}
+.nuve{
+	
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	padding-right: 10px;
+	color: white;
+}
+.cuarta{
+	background: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+.quinto{
+	margin: 5%;
+}
+.titul{
+	margin-top: 2%;
+	color: #082461;
+
+}
+.footer{
+	background-color: #41521F;
+	padding:50px;
+}
+.green{
+	color: #A89F68;
+}
+p{
+	color: #A89F68;
+}
+.white{
+    color: white;	
+}
+#mouse{
+	cursor: pointer;
+}
